@@ -1,0 +1,78 @@
+#nav-container {
+  background-color: #0d6efd;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: white;
+}
+
+#navbarNav {
+  background-color: #0d6efd;
+}
+
+#profile-image {
+  margin-top: 2%;
+  border-radius: 5%;
+  width: 25%;
+}
+
+#image-container {
+  padding-bottom: 10%;
+}
+
+.subtitle {
+  padding-bottom: 5%;
+  font-size: 2.5rem;
+}
+
+.section {
+  padding-bottom: 8%;
+}
+
+#p-images {
+  width: 20%;
+  margin-left: 3%;
+  padding-bottom: 8%;
+}
+
+#aboutme-paragraph {
+  font-size: 1.2rem;
+}
+
+#contact {
+  color: white;
+  text-align: center;
+  background-color: #0d6efd;
+  padding: 3% 0 3% 0;
+}
+
+.card {
+  margin-left: 3%;
+}
+
+
+
+.contact-icon {
+  width: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  border-radius: 100%;
+}
+
+.contact-icon:hover {
+  border: 2.5px solid white;
+  border-radius: 100%;
+}
+
+.subtitle-contact {
+  font-size: 2.5rem;
+}
+
+.contact-paragraph {
+  font-size: 1.2rem;
+}
+
+h5 {
+  text-align: center;
+}
