@@ -1,142 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mi portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./index.css" />
-  </head>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      id="nav-container"
-    >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse border-bottom border-dark justify-content-end"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">| Acerca de mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">| Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index.css" />
 
-    <div class="text-center" id="image-container">
-      <img id="profile-image" src="./source/Leonardo+gomez.jfif" />
-      <h3 class="text-center">Leonardo Gomez</h3>
-      <p>Desarrollador Salesforce & Web fullstack</p>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-container">
+    <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse border-bottom border-dark justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">| Acerca de mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">| Contacto</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <h3 class="subtitle text-center" id="portfolio">Portfolio</h3>
-    <div class="d-flex justify-content-center section">
-      <div class="card" style="width: 18rem">
-        <img
-          src="./source/pexels-fauxels-31831543.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title" align="center">Proyecto 1</h5>
-          <p class="card-text" >
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="./source/pexels-antonio-batinić-4164418.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Proyecto 2</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="./source/pexels-cottonbro-5483077.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Proyecto 3</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+  <div class="text-center" id="image-container">
+    <img id="profile-image" src="./source/Leonardo+gomez.jfif" />
+    <h3 class="text-center">Leonardo Gomez</h3>
+    <p>Desarrollador Salesforce & Web fullstack</p>
+  </div>
+
+  <h3 class="subtitle text-center" id="portfolio">Portfolio</h3>
+  <div class="d-flex justify-content-center section">
+    <div class="card" style="width: 18rem">
+      <img src="./source/pexels-fauxels-31831543.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title" align="center">Proyecto 1</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-
-    <div class="text-center section" id="aboutme">
-      <h3 class="subtitle text-center">Acerca de mí</h3>
-      <p id="aboutme-paragraph">
-        Hola!, Soy Leo, tengo 32 años. Lo que mas me gusta de la programación,
-        es que se pueden crear soluciones y automatizar procesos. <br />
-        No existe mejor satisfacción que ver cómo las ideas cobran vida a través
-        del código.
-      </p>
-    </div>
-
-    <div id="contact">
-      
-      
-      <div class="d-flex justify-content-center">
-        <img
-          src="./source/iconmonstr-github-1.svg"
-          alt="contact-img1"
-          class="contact-icon"
-        />
-
-        <img
-          src="./source/linkedin-svgrepo-com.svg"
-          alt="contact-img2"
-          class="contact-icon"
-        />
-
-        <img
-          src="./source/trailhead-alt-svgrepo-com.svg"
-          alt="contact-img3"
-          class="contact-icon"
-        />
+    <div class="card" style="width: 18rem">
+      <img src="./source/pexels-antonio-batinić-4164418.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Proyecto 2</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
-      <p class="contact-paragraph">
-        Si quieres contactar conmigo, en cualquiera de estos canales, te invito
-        a acceder a estos links. Saludos!
-      </p>
     </div>
-  </body>
+    <div class="card" style="width: 18rem">
+      <img src="./source/pexels-cottonbro-5483077.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Proyecto 3</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center section" id="aboutme">
+    <h3 class="subtitle text-center">Acerca de mí</h3>
+    <p id="aboutme-paragraph">
+      Hola!, Soy Leo, tengo 32 años. Lo que mas me gusta de la programación,
+      es que se pueden crear soluciones y automatizar procesos. <br />
+      No existe mejor satisfacción que ver cómo las ideas cobran vida a través
+      del código.
+    </p>
+  </div>
+
+  <div id="contact">
+
+
+    <div class="d-flex justify-content-center">
+      <img src="./source/iconmonstr-github-1.svg" alt="contact-img1" class="contact-icon" id="github"
+        title="Ir a ver perfil github" />
+
+      <img src="./source/linkedin-svgrepo-com.svg" alt="contact-img2" class="contact-icon" id="linkedin"
+        title="Ir a ver perfil linkedin" />
+
+      <img src="./source/trailhead-alt-svgrepo-com.svg" alt="contact-img3" class="contact-icon" id="trailhead"
+        title="Ir a ver perfil trailhead" />
+    </div>
+    <p class="contact-paragraph">
+      Si quieres contactar conmigo, en cualquiera de estos canales, te invito
+      a acceder a estos links. Saludos!
+    </p>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
 </html>
