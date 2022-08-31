@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(27,49,82);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.title{
+    text-align: center;     
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0ch;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 0ch;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+}
+
+.boton-agregar:hover{
+    opacity: .8;    
+}
+
+.boton-editar{
+   width:30px ;
+   height: 20px;
+}
+
+.boton-remover{
+    width:30px ;
+    height: 20px;
+}
